@@ -1,0 +1,154 @@
+
+body{
+  background-image: linear-gradient(90deg,rgb(130, 221, 130),pink,skyblue);
+ 
+}
+.btn{
+  font-size: 30px;
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+  margin-top:20px;
+  margin-left:260px;
+  background-color: dodgerblue;
+  border:2px solid dodgerblue;
+ 
+
+}
+.btn:hover{
+  box-shadow: 0px 3px 0px 0px blue;
+  border-radius: 3px;
+}
+.table{
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.back{
+  background-color: dodgerblue;
+  margin-left:-8px;
+  margin-top: -10px;
+  width:96rem;
+  height:80px;
+  border: 5px groove blue;
+  
+}
+
+.header{
+  display: flex;
+
+}
+
+.box{
+box-sizing: border-box;
+width: 55%;
+margin-left: 250px;
+margin-top:10px;
+height: 3rem;
+border: 1px solid rgb(175, 174, 179);
+padding-top: 1rem;
+font-size: 18px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.for_margin{
+width: 10rem;
+} 
+
+.name{
+width: 10rem;
+} 
+
+.age{
+width: 10rem;
+
+
+}
+
+.course{
+width: 10rem;
+}
+
+.batch{
+width: 15rem;
+}
+
+.for_left{
+left: 5rem;
+} 
+
+.head{
+margin-top: 2rem;
+margin-left: 13rem;
+font-weight: bold;
+font-size: 30px;
+color: #0a0f09;
+}
+
+.head_btn{
+margin-left: 50rem;
+margin-top: 3rem;
+}
+
+.h_btn{
+background-image: linear-gradient(90deg,pink,green);
+padding: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 18px;
+border: none;
+border-radius: 10px;
+}
+.h_btn:hover{
+  background-image: linear-gradient(90deg,green,pink);
+}
+.container{
+height: 720px;
+text-align: center;
+margin: 0px;
+background-image: linear-gradient(to bottom, #aaf0aa , #7eaced ,#5dcfe3  100%);
+}
+
+.simplebtns{
+  background-image: linear-gradient(90deg,pink,green);
+margin-top: 3rem;
+padding: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-left: 1rem;
+border-radius: 10px;
+}
+.simplebtns:hover{
+  background-image: linear-gradient(90deg,green,pink);
+}
+
+
+.inpt{
+display:flex;
+flex-direction: column;
+margin:10px;
+margin-left:560px;
+margin-top:30px;
+width: 24rem;
+height: 3rem;
+border-radius: 15px;
+}
+
+.home{
+  font-size:30px;
+  margin-left:600px;
+  margin-top:300px;
+  text-shadow: 2px 2px 2px red;
+}
+.btn_edit{
+  background-image: linear-gradient(90deg,pink,skyblue);
+   border:rgb(183, 225, 241) ;
+   width:70px;
+   border-radius: 15px;
+}
+.btn_edit:hover{
+  border-bottom:4px solid blue;
+  background-image: linear-gradient(90deg,skyblue,pink);
+}
